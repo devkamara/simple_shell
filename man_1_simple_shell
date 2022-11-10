@@ -1,0 +1,34 @@
+IMPLE_SHELL 1 "November 2022" "Version 1.0" "SH General Commands Manual"
+.Sh NAME
+.B Simple Shell
+- Command interpreter simplified
+.SH SYNOPSIS
+.B [Command] [-OPTIONS] [FILE]
+.R
+.SH DESCRIPTION
+.B Simple Shell
+- is a simple command interpreter for Linux 22.04 LTS. It provides a variety of functions that the actual SH shell from Linux.
+.PP
+It is the final project of the low-level study program at Alx  School.
+.SH OPTIONS
+.B [-all the standard]
+.PP
+.B [env]
+- print the environmental variables
+.PP
+.B [exit]
+- exits the shell and sets errno to the last error.
+.SH ENVIRONMENT
+It automatically searches your local PATH variable and sets it.
+.SH EXIT STATUS
+It conforms with the Standard Linux error codes.
+.SH SEE ALSO
+sh(1)
+.PP
+bash(1)
+.PP
+.SH BUGS
+Does not have identified bugs at the moment
+.SH AUTHORS
+Oscar Kamau - (https://www.linkedin.com/in/oscarkamau/)
+Francis Kamara- (https://www.linkedin.com/in/franciskamara/)
