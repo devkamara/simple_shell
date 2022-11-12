@@ -9,5 +9,5 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 void print_environ(void);
-
+int _strcmp(char *s1, char *s2);
 #endif
