@@ -1,4 +1,4 @@
-IMPLE_SHELL 1 "November 2022" "Version 1.0" "SH General Commands Manual"
+SIMPLE_SHELL 1 "November 2022" "Version 1.0" "SH General Commands Manual"
 .Sh NAME
 .B Simple Shell
 - Command interpreter simplified
