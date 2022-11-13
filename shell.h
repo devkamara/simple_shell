@@ -11,4 +11,7 @@
 void print_environ(void);
 int _strcmp(char *s1, char *s2);
 char *path_search(char *cmd);
+char **parse_input_string(char *buffer);
+char *_strncat(char *dest, char *src, int n);
+
 #endif
