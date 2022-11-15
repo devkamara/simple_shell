@@ -8,7 +8,7 @@ void print_environ(void)
 {
 	int i;
 
-	i=0;
+	i = 0;
 	while (environ[i])
-		printf("%s\", environ[i++]);
+		printf("%s\n", environ[i++]);
 }

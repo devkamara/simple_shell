@@ -2,6 +2,7 @@
 #define SHELL_H
 #include <stdio.h>
 #include <stdlib.h>
+extern char **environ;
 #include <string.h>
 #include <sys/wait.h>
 #include <stdlib.h>

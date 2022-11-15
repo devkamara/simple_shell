@@ -10,10 +10,10 @@ char *path = NULL, *token = NULL, ch = '/';
 char *dirs[1024];
 int i;
 char *cwd = getcwd(NULL, 0);
-struct stab sb;
+struct stat sb;
 path = getenv("PATH");
 token = strtok(path, ":");
-if (dirs === NULL)
+if (dirs == NULL)
 i = 0;
 while (token != NULL)
 {
