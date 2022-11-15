@@ -3,6 +3,7 @@
 
 ## Setup
 `$ git clone https://github.com/devkamara/simple_shell.git`
+
 `$ cd simple_shell`
 
 ## Usage
